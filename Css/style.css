@@ -1,0 +1,481 @@
+/* All Common Css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+/* All Common Css End  */
+.dwnbtn {
+  padding: 15px 30px;
+  background: transparent;
+  color: #FF5538;
+  border: 1px solid #FF5538;
+  border-radius: 20px;
+  transition: .4s;
+}
+
+.dwnbtn:hover {
+  background: yellowgreen;
+  color: black;
+}
+
+.nav-link {
+  padding: 0 30px !important;
+  transition: .4s;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #D6A033;
+}
+
+.navbar-nav {
+  padding: 0 95px;
+}
+
+/* Banner Part Start */
+#bannerPart {
+  background: url(../Images/BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 210px;
+  padding-bottom: 130px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  margin-top: 20px;
+}
+
+
+.bannerText h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #29313D;
+  line-height: 130%;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.bannerText a {
+  font-family: "Nunito", sans-serif;
+  color: #29313D;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+
+}
+
+.homebtn {
+  padding-right: 5px;
+}
+
+/* Banner Part End */
+
+/* Process Part Start */
+
+#processPart {
+  padding: 100px 0;
+}
+
+
+.processTextArea h2 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #29313D;
+}
+
+.processTextArea p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  color: #29313D;
+  padding-top: 20px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 50px;
+}
+
+
+
+.processItem {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background: #fff;
+  -webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.33);
+}
+
+.processItem h4 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 160%;
+  color: #29313D;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+/* Process Part End */
+
+/* Agency Part Start */
+
+/* Agency Part Start */
+
+#agencyPart {
+  padding: 100px 0;
+  background: #EDF3F7;
+}
+
+.agencyText h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+}
+
+.agencyText p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  padding-top: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.agencyItem {
+  margin-top: 50px;
+  background: #fff;
+}
+
+.agencyItem h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #29313D;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.agencyItem p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #29313D;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+
+}
+
+.agencyItem img {
+  width: 100%;
+}
+
+/* Agency Part End */
+
+/* Counting Part Start */
+#countingPart {
+  padding: 100px 0;
+  background: url(../Images/BG.png);
+}
+
+.countTextItem h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.countTextItem p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  padding-top: 10px;
+}
+
+.countTextItem {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.countingLeftSide h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.countingLeftSide p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  padding-right: 16px;
+  font-family: "Nunito", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.moredwnbtn {
+  background: #FF5538;
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Counting Part End */
+
+/* Solutions part Start */
+#solutionsPart {
+  padding: 100px 0;
+}
+
+.solutionItemtext h2 {
+  font-size: 39px;
+  font-weight: 600;
+  line-height: 140%;
+  padding-bottom: 50px;
+}
+
+.rapText h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.rapText p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  font-family: "Nunito", sans-serif;
+}
+
+.rapimg img {
+  padding-right: 20px;
+}
+
+.solutionLeft {
+  padding-top: 50px;
+}
+
+.solutionLeft h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  padding-bottom: 20px;
+}
+
+.solutionLeft p {
+  background: #FCF5F3;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  padding: 20px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Solutions part End */
+
+/* Business Part Start  */
+#businessItempart {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: #EDF3F7;
+  width: 100%;
+  height: 420px;
+  /* position: relative; */
+}
+
+
+
+.businessHeadText h2 {
+  font-weight: 600;
+  font-size: 48;
+  line-height: 62px;
+  margin-bottom: 50px;
+}
+
+
+
+.businessItemText {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  /* position: absolute; */
+}
+
+.businessItemText h5 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.businessItemText p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.businessItemText h4 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.businessItemText a {
+  background: #FF5538;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.selectIconPart {
+  padding-top: 20px;
+}
+
+.selectIconPart h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  font-family: "Nunito", sans-serif;
+}
+
+.selectIconPart i {
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+/* Business Part End  */
+
+/* Project Part Start */
+#projectPart {
+  margin-top: 480px;
+  padding: 100px 0;
+  background: #FFD7C8;
+}
+
+.projectPart h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.projectPart h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+  padding-top: 20px;
+}
+
+.dwnbtnlast a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  background: #FF5538;
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+
+.lineDiv {
+  background: #29313D;
+  height: 1px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.lastPart p {
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #29313D;
+  padding-top: 30px;
+}
+/* Project Part End */
+
+
+/* Last Contact Part start */
+
+
+#lastContactPart {
+  padding: 100px 0;
+}
+
+.contactLeftPart p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 180%;
+  color: #29313D;
+  padding-top: 30px;
+  font-family: "Nunito", sans-serif;
+}
+
+.contactRightSide h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  padding-bottom: 20px;
+}
+
+.contactRightSide ul li a{
+font-size: 20px;
+font-weight: 600;
+line-height: 120%;
+color: #29313D;
+font-family: "Nunito", sans-serif;
+}
+
+.contactRightSide ul li {
+
+ padding-bottom: 20px;
+}
+/* Last Contact Part End */
