@@ -34,6 +34,29 @@ p {
 }
 
 /* All Common Css End  */
+
+/* sticky Header start */
+
+.sticky_name{
+  background: rgb(68, 254, 220);
+  animation: alamin 1s;
+  }
+
+
+
+  @keyframes alamin{
+  from{
+  top: -100px;
+  }
+  to{
+  top: 0;
+  }
+  }
+
+/* sticky Header End */
+
+
+
 .dwnbtn {
   padding: 15px 30px;
   background: transparent;
@@ -51,7 +74,7 @@ p {
 .nav-link {
   padding: 0 30px !important;
   transition: .4s;
-  color: #000000;
+  color: #ffffff;
 }
 
 .nav-link:hover {
@@ -64,41 +87,87 @@ p {
 
 /* Banner Part Start */
 #bannerPart {
-  background: url(../Images/BG.png);
+  /* background: url(../Images/BG.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 210px;
-  padding-bottom: 130px;
+  padding-bottom: 130px; */
+  position: relative;
+  
+}
+
+.over {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 210px;
+  z-index: 10;
+}
+
+.sliderOne {
+  background: url(../Images/slid1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-top: 210px;
+  padding-bottom: 130px; */
+}
+
+.sliderTwo {
+  background: url(../Images/slid2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-top: 210px;
+  padding-bottom: 130px; */
+}
+
+.sliderThree {
+  background: url(../Images/slid3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-top: 210px;
+  padding-bottom: 130px; */
+}
+
+.overly {
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 300px;
+  padding-bottom: 250px;
 }
 
 .navbar {
   position: fixed;
   top: 0;
   margin-top: 20px;
+  z-index: 999;
 }
 
 
 .bannerText h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: #29313D;
-  line-height: 130%;
-  padding-bottom: 30px;
-  padding-top: 10px;
+	font-size: 56px;
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 130%;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-left: 180px;
 }
 
 .bannerText a {
-  font-family: "Nunito", sans-serif;
-  color: #29313D;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 100%;
-
+	font-family: "Nunito", sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 100%;
+	padding-left: 20px;
 }
 
-.homebtn {
+.bannerText .homebtn {
   padding-right: 5px;
+  padding-left: 200px;
 }
 
 /* Banner Part End */
@@ -479,3 +548,46 @@ font-family: "Nunito", sans-serif;
  padding-bottom: 20px;
 }
 /* Last Contact Part End */
+
+.prev {
+  color: white;
+  font-size: 40px;
+  top: 50%;
+  left: 20px;
+  background: transparent;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 11;
+}
+
+.next {
+  color: white;
+  font-size: 40px;
+  top: 50%;
+  right: 20px;
+  background: transparent;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 11;
+}
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+
+.slick-dots li{
+  display: inline-block;
+}
+
+.slick-dots li button{
+  font-size: 0px;
+  margin-right: 10px;
+  /* border: none; */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 2px solid rgb(255, 247, 0);
+}
